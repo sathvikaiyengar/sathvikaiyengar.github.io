@@ -11,26 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+
+* B.S. in Computer Science and Physics, Northeastern University, December 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* January 2025 - Present: Research Assistant, Northeastern University (Boston, MA)
+  * Developed Random Forest, XG Boost models in Python for identifying parameters strongly correlated with quenching in central and satellite galaxies
+  * Leveraged high-performance computing (HPC) resources, such as the Discovery cluster, for efficient model training on TNG simulation data
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* January 2024 - June 2024: Junior Software Developer/Researcher Intern, Intelli-Select (Brussels, Belgium)
+  * Engineered full-stack apps using Angular and NGRX for front end, Python and Flask for backend development, integrating MySQL relational databases and Wikipedia APIs for collateral management
+  * Implemented natural language querying for documents, tables, and figures using LLMs(Mistral, TAPAs)
+  * Built RAG pipelines and LLM chaining using technology frameworks(PyTorch, Transformers)
+  * Created presentations and demos of new features for end clients from global investment banks
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+
   
 Skills
 ======
@@ -41,24 +37,9 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+   -->
