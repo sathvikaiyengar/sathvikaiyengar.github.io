@@ -1,6 +1,6 @@
 ---
-title: "Determining Importance of Features Related to Star Formation in Central and Satellite Galaxies Using Machine Learning"
-excerpt: "Short description of portfolio item number 1<br/><img src='/nasa-galaxy.jpg'>"
+title: "Portfolio item number 3"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/nasa-galaxy.jpg'>"
 collection: portfolio
 ---
 
