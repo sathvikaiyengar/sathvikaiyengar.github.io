@@ -12,7 +12,8 @@ redirect_from:
 Education
 ======
 
-* B.S. in Computer Science and Physics, Northeastern University
+* B.S. in Computer Science and Physics, Northeastern University 
+* Minor in Mathematics
 
 
 Work experience
@@ -40,9 +41,9 @@ Skills
   * Introduction to Deep Learning, Harvard University
   * State Seal of Biliteracy in German (2021)
 
-<!-- Publications
+Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-   -->
+  
