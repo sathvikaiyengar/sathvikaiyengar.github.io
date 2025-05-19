@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: #FFFADC;
   border-bottom: 1px solid var(--global-border-color);
   height: $masthead-height;
   top: 0;
@@ -47,7 +47,7 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: #FFFADC;
   display: block;
   list-style-type: none;
   white-space: nowrap;
