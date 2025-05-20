@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Sathvika S. Iyengar"
+title                    : "Sathvika Iyengar"
 title_separator          : "-"
 name                     : &name "Sathvika Iyengar"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ repository               : "sathvikaiyengar/sathvikaiyengar.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Sathvika S. Iyengar"
+  name             : "Sathvika Iyengar"
   pronouns         : # example: "she/her"  
   bio              : "Honors Computer Science & Physics @ Northeastern"
   location         : "Old Bridge, NJ"
