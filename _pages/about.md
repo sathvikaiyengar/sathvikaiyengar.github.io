@@ -7,8 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Here, you can find information about my personal projects, publications, and CV. 
+Hi! I am a recent graduate from Northeastern University, where I majored in Computer Science and Physics with a minor in Mathematics. I am passionate about utilizing machine learning and software development to solve complex problems across industries.
 
-I am excited to share my research and work experiences, particuarly in the computational astrophysics and FinTech field!
+With hands-on experience in startups and research environments across the U.S. and Europe, I enjoy building meaningful, data-driven applications - whether it's modeling astrophysical simulations or creating intuitive software tools.
 
-Feel free to explore and learn more about my professional journey and the projects I am involved in.
+
+Feel free to explore my current projects and professional journey.

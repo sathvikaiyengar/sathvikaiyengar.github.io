@@ -21,19 +21,19 @@ collection: portfolio
     <ul>
         <li>Determine the most important parameter for predicting the quenching of galaxies on spatially resolved scales using ML algorithms</li>
         <li>Apply for subsets of the TNG100 galaxy sample including: high- and low- mass centrals, high- and low- mass satellites</li>
-        <li>Compare results from TNG100 simulation data to observations from similar papers (see Bluck)</li>
+        <li>Compare results from TNG100 simulation data to observations from similar papers (see Bluck et. al 2020a)</li>
     </ul>
 </div>
 
-<div class="section"></div>
+<!-- <div class="section"></div>
     <h2>Data Preprocessing:</h2>
     <h3>Annular Binning</h3>
-</div>
+</div> -->
 
 <div class="section">
     <h2>Methods</h2>
     <div>
-        <strong>Global parameters (galaxy specific):</strong><br/>
+        <!-- <strong>Global parameters (galaxy specific):</strong><br/>
         <ins>s_mass:</ins> stellar mass; the total mass of all stellar particles bound to a galaxy; in units of 10^10 M_sun/h<br/>
         <ins>BHMass:</ins> mass of the supermassive black hole at the center of a galaxy; in units of 10^10 M_sun/h <br/>
         <ins>BH_AGN:</ins> total black hold energy imparted in both quasar (BH_cumQM) and radio mode (BH_cumRM)<br/>
@@ -45,15 +45,15 @@ collection: portfolio
         <ins>avg_gas_mass:</ins> base-10 log of gas mass surface density of the bin <br/>
         <ins>avg_s_mass:</ins> base-10 log of the stellar mass surface density of the bin<br/>
         <br/>
-        <strong>Methodology:</strong>
+        <strong>Methodology:</strong> -->
         <ul>
-            <li>Conducting 10 independent runs, utilizing cross validation resulting in 500 model runs</li>
+            <li>Conducting independent runs, utilizing cross validation resulting in 500 model runs</li>
             <li>Separation of training/testing on the galaxy-level to prevent data leakage</li>
             <li>Randomized Search CV utilized for hyperparameter tuning 
-                <ul>
+                <!-- <ul>
                     <li>For Random Forest: n_estimators, max_depth, min_samples_split, min_samples_leaf, max_features, bootstrap</li>
                     <li>For XGBoost: n_estimators, max_depth, learning_rate, alpha, reg_lambda, scale_pos_weight, min_child_weight</li>
-                </ul>
+                </ul> -->
             </li>
             <li>Utilized ROC curves, AUC/F1 scores to determine model accuracy</li>
         </ul>
@@ -66,6 +66,7 @@ collection: portfolio
 
 <div class="section">
     <h2>Results</h2>
+    Results are currently being analyzed and will be updated soon. The following models were trained and tested:
     <h3>RF Classification</h3>
     <h3>RF Regression</h3>
     <h3>NN Classification</h3>
