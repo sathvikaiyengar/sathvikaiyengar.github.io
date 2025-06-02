@@ -11,10 +11,9 @@ One of my case studies involves in Celestial Body Classification, the final proj
 <div class="section">
     <h2>Key Definitions</h2>
     <div>
-        <ins>Galaxy quenching:</ins> process in which star formation shuts down in a galaxy <br/>
-        <ins>Central galaxies:</ins> largest galaxy in center of halo<br/>
-        <ins>Satellites galaxies:</ins> smaller galaxies revolving around central galaxies<br/>
-        <ins>Spaxels:</ins> spatially resolved pixel containing vast information on a tiny area of the sky<br/>
+        <ins>Galaxy: collection of gas, dust, and billions of stars and their solar systems</ins> <br/>
+        <ins>Star: luminous body visible in the sky</ins> largest galaxy in center of halo<br/>
+        <ins>Quasar:</ins> extremely active and luminous type of active galactic nucleus (AGN)<br/>
     </div>
 </div>
 
@@ -31,9 +30,11 @@ One of my case studies involves in Celestial Body Classification, the final proj
 <div class="section">
     <h2>Methods</h2>
 
-    The study begins by collecting data from the Sloan Digital Sky Survey (SDSS), one of largest public astronomical datasets. Through SQL queries submitted to the SDSS database server, a dataset of 250,000 celestial object observations was used for training, validating, and testing the neural network built. Each observation had 17 feature columns and 1 class column indicating the type of celestial body (star, galaxy or quasar).
+    The study begins by collecting data from the Sloan Digital Sky Survey (SDSS), one of largest public astronomical datasets. Through SQL queries submitted to the SDSS database server, a dataset of 250,000 celestial object observations was used for training, validating, and testing the neural network built. <br/>
+    
+    Each observation had 17 feature columns and 1 class column indicating the type of celestial body (star, galaxy or quasar). <br/>
 
-    Next, the dataset was prepared for processing by dropping irrelevant columns, such as identifiers. In addition, one-hot encoding was applied to the class column, where dummy variables are created for each categorical value. The dataset was scaled and split into training (60% of the dataset), validation (20%), testing (20%) sets, to assess the model's performance on unseen data.
+    Next, the dataset was prepared for processing by dropping irrelevant columns, such as identifiers. In addition, one-hot encoding was applied to the class column, where dummy variables are created for each categorical value. The dataset was scaled and split into training (60% of the dataset), validation (20%), testing (20%) sets, to assess the model's performance on unseen data. <br/>
 
     Then, a feedforward neural network model was constructed with two hidden layers, along with batch normalization and dropout layers to prevent overfitting. The dropout rates for the layers were determined through finding the optimal validation accuracy from sample dropout rate values. With the model trained with the training set, the accuracy of the model was evaluated on the unseen testing set. 
 
@@ -43,9 +44,11 @@ One of my case studies involves in Celestial Body Classification, the final proj
 
 <div class="section">
     <h2>Results</h2>
-    This resulted in a test loss of 4.26% and test accuracy of 98.85%, indicating the high accuracy performance of the model.
+    This resulted in a test loss of 4.26% and test accuracy of 98.85%, indicating the high accuracy performance of the model. <br/>
 
-    The model was then used to predict the class labels for the unseen validation dataset, for which a Confusion Matrix displayed significant results for the class types predicted correctly. In addition, using Principal Component Analysis (PCA) shed light on the reasoning behind the model’s high prediction accuracy. The first two principal components (PCs) explained 98.15% of the variance in the data, which were the most informative features for the neural network to learn the patterns of classification in the data. It was seen that original plate and run features contributed the most to each principal component, respectively.
+    The model was then used to predict the class labels for the unseen validation dataset, for which a Confusion Matrix displayed significant results for the class types predicted correctly. In addition, using Principal Component Analysis (PCA) shed light on the reasoning behind the model’s high prediction accuracy. <br/>
+    
+    The first two principal components (PCs) explained 98.15% of the variance in the data, which were the most informative features for the neural network to learn the patterns of classification in the data. It was seen that original plate and run features contributed the most to each principal component, respectively. <br/>
 
     Overall, the deep learning-based classification system proved to be effective in identifying celestial bodies with high accuracy. With an automized classification process, this approach can significantly aid in the handling and processing of observational data.
 

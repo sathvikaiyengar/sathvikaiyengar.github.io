@@ -3,7 +3,7 @@ title: "Determining Importance of Features Related to Star Formation in Central 
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-31-quenching
-excerpt: 'The aim of this project is to determine what parameters are the most important in predicting quenching at the spaxel level for subcategories of galaxies.'
+excerpt: 'The aim of this project is to determine what parameters are the most important in predicting quenching at the spaxel level for subcategories of galaxies. Results currently being prepared for publication.'
 # date: 2025-07-31
 # venue: 'Journal 1'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
